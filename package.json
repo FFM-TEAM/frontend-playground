@@ -4,7 +4,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "start": "yarn workspace @ffm-frontend/pet dev",
+    "start": "yarn workspace @ffm-frontend/app dev",
     "lint": "eslint -c .eslintrc.js '{components,configs,libraries,services}/**/*.{ts,tsx}'",
     "typecheck": "yarn tsc --noEmit",
     "postinstall": "husky install"
